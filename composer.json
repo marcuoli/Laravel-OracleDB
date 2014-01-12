@@ -1,5 +1,5 @@
 {
-    "name": "jfelder/oracledb",
+    "name": "marcuoli/oracledb",
     "description": "Oracle DB driver for Laravel 4+",
     "keywords": ["oracle", "laravel"],
     "license": "MIT",
