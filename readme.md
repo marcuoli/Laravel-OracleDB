@@ -1,9 +1,9 @@
-# Laravel 4 Oracle Database Package
+# Laravel 4.1 Oracle Database Package
 
 OracleDB [![Build Status](https://travis-ci.org/jfelder/Laravel-OracleDB.png?branch=master)](https://travis-ci.org/jfelder/Laravel-OracleDB)
 ========
 
-OracleDB is an Oracle Database Driver package for [Laravel 4](http://laravel.com/). OracleDB is an extension of [Illuminate/Database](https://github.com/illuminate/database) that uses the  (Thanks to @taylorotwell)
+OracleDB is an Oracle Database Driver package for [Laravel 4.1](http://laravel.com/). OracleDB is an extension of [Illuminate/Database](https://github.com/illuminate/database) that uses the  (Thanks to @taylorotwell)
 
 **Please report any bugs you may find.**
 
@@ -18,12 +18,12 @@ OracleDB is an Oracle Database Driver package for [Laravel 4](http://laravel.com
 Installation
 ============
 
-Add `jfelder/oracledb` as a requirement to composer.json:
+Add `marcuoli/oracledb` as a requirement to composer.json:
 
 ```json
 {
     "require": {
-        "jfelder/oracledb": "*"
+        "marcuoli/oracledb": "*"
     }
 }
 ```
@@ -38,7 +38,7 @@ Once Composer has installed or updated your packages you need to register Oracle
 Finally you need to publish a configuration file by running the following Artisan command.
 
 ```terminal
-$ php artisan config:publish jfelder/oracledb
+$ php artisan config:publish marcuoli/oracledb
 ```
 This will copy the configuration file to app/config/packages/jfelder/oracledb/database.php
 
