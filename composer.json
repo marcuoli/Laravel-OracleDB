@@ -1,6 +1,6 @@
 {
     "name": "jfelder/oracledb",
-    "description": "Oracle DB driver for Laravel 4",
+    "description": "Oracle DB driver for Laravel 4+",
     "keywords": ["oracle", "laravel"],
     "license": "MIT",
     "authors": [
